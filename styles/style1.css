@@ -20,6 +20,14 @@ h1
 	font-family: '3dumbregular';
 }
 
+article
+{
+	padding: 1%;
+	margin: 1%;
+	min-width: 25%;
+	text-align: justify;
+}
+
 .txtcentre
 {
 	text-align: center;	
@@ -40,21 +48,62 @@ p.citation
 #sommaire
 {
 	text-shadow: 6px 6px 6px black;
-	clear: both
 }
 
 #experience, #competence, #formation
 {
-	margin: 30px 10px 20px 10px;
+	clear: both;
+	padding: 10px;
 	border-color: rgb(139,112,57);
 	border-radius: 20px;
-	border-left-width: 10px 10px;
 	border-style: groove;
-	
 }
 
 a:hover
 {
 	font-size: 2em;
 	color: red;
+}
+
+nav
+{
+	border-radius: 20px;
+	color: white;
+	width: 300px;
+	background-color: grey;
+}
+
+.test
+{
+	margin: auto;
+}
+
+.conteneurglobal
+{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	width: 100%;
+}
+
+.conteneurvertical
+{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+	margin: 10px;
+}
+
+.conteneurvertical:nth-child(2)
+{
+    flex: 1;
+}
+
+section
+{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 10px;
 }

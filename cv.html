@@ -7,39 +7,60 @@
 	</head>
 	
 	<body>
-		<figure>
-			<!-- <figcaption>Photo du CV</figcaption> -->
-			<a href="images/cv.jpg"><img class="imageflottante" src="images/cv_min.jpg" alt="Photo CV" title="BipBip le coyotte"></a>
-		</figure>
-		
-		<h1>BipBip le Coyotte</h1>
-		<p class="citation">Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.</p>
-		
-		<h2 id="sommaire" class="txtcentre">Sommaire</h2>
-		<p class="txtcentre">
-			<a href=#experience>Mon expérience</a><br />
-			<a href=#competence>Mes compétences</a><br />
-			<a href=#formation>Ma formation</a><br />
-		</p>
+		<div class="conteneurglobal">
+			<nav>		
+				<h2 id="sommaire" class="txtcentre">Sommaire</h2>
+				<p class="txtcentre">
+					<a href=#experience>Mon expérience</a><br />
+					<a href=#competence>Mes compétences</a><br />
+					<a href=#formation>Ma formation</a><br />
+				</p>
+			</nav>			
+			
+			<div class="conteneurvertical">
+				<header>
+					<aside>
+						<figure>
+							<!-- <figcaption>Photo du CV</figcaption> -->
+							<a href="images/cv.jpg"><img class="imageflottante" src="images/cv_min.jpg" alt="Photo CV" title="BipBip le coyotte"></a>
+						</figure>
+					</aside>
+					
+					<h1 class="txtcentre">BipBip le Coyotte</h1>
+					<p class="citation txtcentre">Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.</p>
+				</header>
 
-		<h2 id="experience"> Mon expérience</h2>
-		<ul>
-			<li>Participation à de nombreux <em>dessins animés</em></li>
-			<li>Cascades en tout genre</li>
-		</ul>
+				<section>
+					<article>
+						<h2 id="experience"> Mon expérience</h2>
+						<ul>
+							<li>Participation à de nombreux <em>dessins animés</em></li>
+							<li>Cascades en tout genre</li>
+						</ul>
+					</article>
 
-		<h2 id="competence"> Mes compétences</h2>
-		<ol>
-			<li>Course</li>
-			<li>Construction de <em>pièges</em></li>
-			<li>Patience à toute épreuve</li>
-		</ol>
+					<article>
+						<h2 id="competence"> Mes compétences</h2>
+						<ol>
+							<li>Course</li>
+							<li>Construction de <em>pièges</em></li>
+							<li>Matrise de la dynamite</li>
+							<li>Patience à toute épreuve</li>
+						</ol>
+					</article>
 
-		<h2 id="formation"> Ma formation</h2>
-		<p>Autodidacte</p>
+					<article>
+						<h2 id="formation"> Ma formation</h2>
+						<p>Autodidacte</p>
+					</article>
+				</section>
+			</div>
+		</div>
 		
-		<p class="txtcentre">
-			<a href="mailto:bibip@coyotte.com">Contactez-moi</a>
-		</p>
+		<footer>
+			<p class="txtcentre">
+				<a href="mailto:bibip@coyotte.com">Contactez-moi</a>
+			</p>
+		</footer>
 	</body>
 </html>
